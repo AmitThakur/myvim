@@ -39,17 +39,17 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 " ----------------------------------------------------------------------
 " vim newline
-" let g:airline#extensions#tabline#enabled = 1
-" set laststatus=2
-" let g:airline_theme='badwolf'
-" let g:airline#extensions#tabline#left_sep = ' '
-" let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#enabled = 1
+set laststatus=2
+let g:airline_theme='badwolf'
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
 "  
-"  let g:airline_left_sep = '»'
-"  let g:airline_left_sep = '▶'
-"  let g:airline_right_sep = '«'
-"  let g:airline_right_sep = '◀'
-"					   
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+					   
 "					   "
 let g:syntastic_cpp_check_header = 1
 " include directories for C++ modules
