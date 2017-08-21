@@ -1,3 +1,6 @@
+inoremap jk <ESC>
+let mapleader = "\<Space>"
+set encoding=utf-8
 set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
 
 " Use indentation of previous line
